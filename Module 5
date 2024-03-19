@@ -1,0 +1,175 @@
+1.
+Question 1
+
+Why is understanding the problem essential to writing a Python script? Select all that apply.
+1 / 1 point
+
+x)To identify the inputs and outputs of the problem
+Correct
+
+To select which scripting language to use. 
+
+x)To write code that will solve the problem in a clear and concise way
+Correct
+
+x)Ensure that you are writing a script that is efficient and effective
+Correct
+2.
+Question 2
+
+Based on the following code, what is the correct output?
+
+numbers = [ 3, 2, 4, 5, 1 ]
+
+numbers.sort()
+
+print(numbers)
+1 / 1 point
+
+x)1, 2, 3, 4, 5
+
+1, 5, 2, 4, 3
+
+3, 1, 5, 4, 2
+
+3, 2, 5, 5, 1
+Correct
+3.
+Question 3
+
+What is the sort() method used for in Python?
+0 / 1 point
+
+The sort() method creates a new list by sorting the strings or values in the original list. 
+
+The sort() method returns a new list that’s been sorted. 
+
+The sort() method sorts a list without creating a new list. 
+
+The sort() method returns the list from the code. 
+Incorrect
+
+Review Research
+
+. 
+4.
+Question 4
+
+You want to sort the following list in descending order. What is the correct code to use to do this?
+
+numbers = [ 4, 6, 2, 7, 1 ]
+1 / 1 point
+
+x)numbers.sort(reverse = True)
+
+numbers.sort(reverse = False)
+
+numbers.sort()
+
+numbers.sort(backup = True)
+Correct
+5.
+Question 5
+
+Based on the following code, what is the correct output?
+
+names = ["Carlos", "Ray", "Alex", "Kelly"]
+
+print(sorted(names, key=len))
+1 / 1 point
+
+['Carlos', 'Ray', 'Alex', 'Kelly'] 
+
+x)['Ray', 'Alex', 'Kelly', 'Carlos']
+
+['Alex', 'Ray', 'Carlos', 'Kelly'] 
+
+['Carlos', 'Kelly', 'Alex', 'Ray']
+Correct
+6.
+Question 6
+
+A grocery store is tracking the inventory of its products. For each product, the store needs to keep track of the product name, the product ID, the quantity in stock, and the price. Which data structure is the most efficient for storing the information associated with each product?
+1 / 1 point
+
+A set
+
+x)A dictionary 
+
+A list
+
+A tuple
+Correct
+7.
+Question 7
+
+Why is it beneficial to use separate functions in your Python code? Select all that apply. 
+0.75 / 1 point
+
+x)Allows code to be modified more easily
+Correct
+
+Processes data more easily 
+
+Ensures the code cannot be reused. 
+
+x)Improves code debugging
+Correct
+You didn’t select all the correct answers
+8.
+Question 8
+
+What does the following code snippet do?
+
+if event.type == "login":
+
+ machines[event.machine].add(event.user)
+1 / 1 point
+
+x)It checks if the event type is “login” and if so, adds the user to the list of logged-in users for a specified machine. 
+
+It adds the user to the list of logged-in users for the specified machine.
+
+It checks if the event type is “logout” and if so, removes the user from the list of logged-in users for the specified machine. 
+
+It removes the user from the list of logged-in users for the specified machine. 
+Correct
+9.
+Question 9
+
+Which of the following statements accurately describes the purpose of an elif statement in Python?
+1 / 1 point
+
+To combine multiple conditions into a single statement, allowing for more complex decision-making.
+
+To repeat a block of code a certain number of times, or until a specific condition is met.
+
+x)To execute a block of code if a specific condition is true, otherwise execute an alternative block of code.
+
+To store data in a temporary variable, accessible only if later called on within the script.
+Correct
+10.
+Question 10
+
+What is the purpose of the following code snippet?
+6
+3
+4
+5
+1
+2
+
+0 / 1 point
+
+To create a list of all the users who have ever logged into any machine.
+
+To print a list of all the events that have occurred.
+
+To print a list of all the machines that are currently in use.
+
+To create a list of all users currently logged into any machine and the machine they're logged into.
+Incorrect
+
+Putting it all together
+
+.
