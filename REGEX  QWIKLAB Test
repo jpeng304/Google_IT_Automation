@@ -1,0 +1,329 @@
+This graded quiz assesses your understanding of the concepts and procedures covered in the lab you just completed. Please answer the questions based on the activities you performed in the lab.
+
+Note:
+
+    You can refer to your completed lab for help with the quiz.
+
+    In order to complete this quiz, you must have completed the lab before it.
+
+1.
+Question 1
+
+What is a regular expression? 
+1 / 1 point
+
+x A sequence of characters that forms a search pattern
+
+A type of data structure in Python
+
+A method of encrypting data
+
+A function in Python for handling exceptions
+Correct
+2.
+Question 2
+
+Which Python function would you use to open a CSV file? 
+0 / 1 point
+
+csv.reader()
+
+x csv.open()
+
+file.open()
+
+open()
+Incorrect
+
+Review the Qwiklabs assessment: Work with regular expressions
+
+ lab. 
+3.
+Question 3
+
+In the provided code snippet, what is the purpose of the replace_domain function?
+def replace_domain(address, old_domain, new_domain):
+ old_domain_pattern = r'' + old_domain + '$'
+ address = re.sub(old_domain_pattern, new_domain, address)
+ return address
+
+1 / 1 point
+
+To remove any domain from the email address
+
+To extract the username part of an email address
+
+x To create a new email address with the old domain replaced by the new one
+
+To validate the format of an email address
+Correct
+4.
+Question 4
+
+Which of the following functions are used to match a regular expression pattern in Python? Select all correct answers
+0.75 / 1 point
+
+re.findall()
+Correct
+
+re.find()
+This should not be selected
+
+Review the Qwiklabs assessment: Work with regular expressions
+
+ lab. 
+
+re.match()
+Correct
+
+re.search()
+Correct
+5.
+Question 5
+
+What is the purpose of initializing the old_domain_email_list in the code from the lab?
+1 / 1 point
+
+x To store email addresses with the old domain that match the regex pattern
+
+To store all email addresses from user_email_list
+
+To perform a substitution operation on email addresses
+
+To store email addresses with the new domain
+Correct
+6.
+Question 6
+
+What is the second step in the process of replacing old domain names with new ones in a CSV file using Python?
+0 / 1 point
+
+Defining variables for the old and new domain names
+
+x Replacing old domain names with new ones in the email addresses
+
+Creating a list of old domain email addresses
+
+The code you provided reads data from a CSV file.
+Incorrect
+
+Review the Qwiklabs assessment: Work with regular expressions
+
+ lab. 
+7.
+Question 7
+
+Why is it considered good practice to use the close() method to close a file after processing it in Python?
+1 / 1 point
+
+To ensure the file remains open for other processes to access.
+
+To permanently delete the file from the system
+
+To encrypt the file and enhance its security
+
+x To free up system resources and prevent further reading or writing to the file
+Correct
+8.
+Question 8
+
+Why is it important to replace old domain names with new ones and generate a new file containing all user names with their respective email addresses?
+1 / 1 point
+
+x To enhance data security measures.
+
+To develop mobile applications.
+
+To improve the user interface of a website.
+
+To optimize server storage space.
+Correct
+9.
+Question 9
+
+Why is it important to define headers for the output file when replacing old domain names with new ones in a CSV file using Python, as described in the lab?
+1 / 1 point
+
+To ensure that the email addresses are correctly replaced
+
+To save memory and improve script performance
+
+To prevent errors when opening the output file
+
+x To identify the column that contains email addresses in the output file
+Correct
+10.
+Question 10
+
+Why is it important to write the list to an output file in a Python script, as specified by the variable report_file?
+1 / 1 point
+
+The output file serves as a backup for the original data, preventing any loss of information in case of script errors.
+
+Writing to an output file allows for temporary storage of data, which is essential for debugging the script.
+
+x Writing the updated list to an output file provides a permanent record of the changes made, allowing for data preservation and further analysis.
+
+Writing to an output file is a required step in Python programming for all data manipulation tasks to ensure memory efficiency.
+Correct
+
+
+
+
+
+
+
+
+
+This graded quiz assesses your understanding of the concepts and procedures covered in the lab you just completed. Please answer the questions based on the activities you performed in the lab.
+
+Note:
+
+    You can refer to your completed lab for help with the quiz.
+
+    In order to complete this quiz, you must have completed the lab before it.
+
+1.
+Question 1
+
+Which of the following tasks can be accomplished using regular expressions? Select all that apply.
+1 / 1 point
+
+x Extracting email addresses from a text
+Correct
+
+Sorting a list of numbers
+
+Generating random numbers
+
+x Replacing a specific pattern in a text
+Correct
+
+x Finding all occurrences of a word in a text
+Correct
+2.
+Question 2
+
+Which Python function would you use to open a CSV file? 
+1 / 1 point
+
+x open()
+
+csv.reader()
+
+csv.open()
+
+file.open()
+Correct
+
+4.
+Question 4
+
+In regular expressions, what does the re.split() function do? 
+1 / 1 point
+
+x Splits a string into a list of substrings based on a regular expression pattern
+
+Checks if a string contains a specific substring or not
+
+Removes all occurrences of a specified substring from a string
+
+Concatenates multiple strings into one string
+Correct
+5.
+Question 5
+
+What is the purpose of initializing the old_domain_email_list in the code from the lab?
+1 / 1 point
+
+To store all email addresses from user_email_list
+
+To perform a substitution operation on email addresses
+
+x To store email addresses with the old domain that match the regex pattern
+
+To store email addresses with the new domain
+Correct
+6.
+Question 6
+
+What is the second step in the process of replacing old domain names with new ones in a CSV file using Python?
+1 / 1 point
+
+Creating a list of old domain email addresses
+
+x The code you provided reads data from a CSV file.
+
+Replacing old domain names with new ones in the email addresses
+
+Defining variables for the old and new domain names
+Correct
+7.
+Question 7
+
+What is the next step after declaring the output file variable report_file at the beginning of the script?
+0 / 1 point
+
+Write the list to the output file
+
+x Initialize the user_email_list
+
+Close the CSV file
+
+Define headers for the output file
+Incorrect
+
+Review the Qwiklabs assessment: Work with regular expressions
+
+ lab. 
+8.
+Question 8
+
+Which Python libraries or modules are commonly employed to perform updates to domain names to a new specified domain and saving all the modified domain names to a separate file?
+1 / 1 point
+
+x re (regular expressions) and open() function
+
+os and sys
+
+re (regular expressions) and requests
+
+pandas and numpy
+Correct
+9.
+Question 9
+
+What are headers in the context of a CSV file?
+1 / 1 point
+
+Headers refer to the metadata that describes the source and author of the CSV file.
+
+x Headers are the first row in a CSV file, typically containing the names of each column.
+
+Headers are special characters or symbols used to separate data items in a CSV file.
+
+Headers are additional rows added at the end of a CSV file to summarize the data.
+Correct
+10.
+Question 10
+
+In the process of updating email domains in a CSV file using Python, how do the contains_domain and replace_domain functions work together?
+1 / 1 point
+
+x contains_domain uses a regular expression to identify emails with a specific domain, and replace_domain replaces these domains with new ones.
+
+Contains_domain sorts the email addresses, and replace_domain reverses their order.
+
+contains_domain encrypts the email addresses, and replace_domain decrypts them back to their original form.
+
+contains_domain deletes email addresses with outdated domains, and replace_domain creates new email addresses from scratch.
+Correct
+
+
+
+
+
+
+
+
+
